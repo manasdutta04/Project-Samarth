@@ -1,86 +1,22 @@
-google-generativeai>=0.3.0# Python dependencies for Project Samarth
+# Python dependencies for Project Samarth - Streamlit Cloud
 
+# AI & LLM
+google-generativeai>=0.3.0
+
+# Web Framework
 fastapi==0.109.0
+uvicorn==0.27.0
 
-uvicorn==0.27.0# Web Framework
-
-pandas>=2.0.0fastapi==0.109.0
-
-numpy>=1.24.0uvicorn[standard]==0.27.0
-
-requests>=2.31.0python-multipart==0.0.6
-
-streamlit>=1.30.0
-
-python-dotenv>=1.0.0# Data Processing
-
-tenacity>=8.0.0pandas==2.2.0
-
-numpy==1.26.3
-openpyxl==3.1.2  # Excel support
-xlrd==2.0.1  # Legacy Excel support
-
-# LLM & AI
-langchain==0.1.4
-langchain-community==0.0.16
-langchain-openai==0.0.5
-openai==1.10.0
-tiktoken==0.5.2
-
-# Vector Database
-chromadb==0.4.22
-# ML & NLP
-sentence-transformers==2.3.1
-Pillow>=10.4.0
-
-# Database
-sqlalchemy==2.0.25
-alembic==1.13.1
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
 
 # HTTP Client
-requests==2.31.0
-aiohttp==3.9.1
-httpx==0.26.0
-
-# Data Validation
-pydantic==2.5.3
-pydantic-settings==2.1.0
+requests>=2.31.0
 
 # Frontend
-streamlit==1.30.0
-plotly==5.18.0
-streamlit-chat==0.1.1
+streamlit>=1.30.0
 
 # Utilities
-python-dotenv==1.0.1
-tqdm==4.66.1
-tenacity==8.2.3  # Retry logic
-cachetools==5.3.2
-
-# Text Processing
-python-levenshtein==0.23.0  # Fuzzy matching
-fuzzywuzzy==0.18.0
-
-# Logging & Monitoring
-loguru==0.7.2
-python-json-logger==2.0.7
-
-# Testing
-pytest==7.4.4
-pytest-asyncio==0.23.3
-pytest-cov==4.1.0
-httpx==0.26.0  # For testing FastAPI
-
-# Development
-black==23.12.1
-flake8==7.0.0
-isort==5.13.2
-mypy==1.8.0
-
-# Date & Time
-python-dateutil==2.8.2
-pytz==2023.4
-
-# Environment
-# Type hints
-typing-extensions>=4.10.0
+python-dotenv>=1.0.0
+tenacity>=8.0.0
